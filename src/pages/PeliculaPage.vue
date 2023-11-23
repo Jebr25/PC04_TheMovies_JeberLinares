@@ -16,11 +16,10 @@
                     v-model="pelicula" 
                     label="Pelicula"
                     lazy-rules
-
-                    
                 />
                 <!-- :rules="[ val => val && val.length > 0 || 'Por favor completar el campo de Pelicula']" -->
                 <!-- @update:modelValue="filtrarPeliculas" -->
+
             </div>
 
             <div class="col-12">
